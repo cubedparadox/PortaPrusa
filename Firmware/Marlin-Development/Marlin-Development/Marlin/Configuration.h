@@ -353,7 +353,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // ENDSTOP SETTINGS:
 // Sets direction of endstops when homing; 1=MAX, -1=MIN
-#define X_HOME_DIR 1
+#define X_HOME_DIR -1
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
 
@@ -510,7 +510,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {89.76,52.86,3987.23,97.5}  // default steps per unit for Ultimaker {78.7402,78.7402,200.0*8/3,760*1.1}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {52.86,52.86,3987.23,97.5}  //89.76 default steps per unit for Ultimaker {78.7402,78.7402,200.0*8/3,760*1.1}
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 2, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {500,1000,30,10000}//{9000,9000,30,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 

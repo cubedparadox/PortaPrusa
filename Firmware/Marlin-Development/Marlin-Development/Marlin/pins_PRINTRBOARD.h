@@ -49,8 +49,8 @@
 #define X_STOP_PIN         35
 #define Y_STOP_PIN          8
 #define Z_STOP_PIN         36
-#define TEMP_0_PIN          1  // Extruder / Analog pin numbering
-#define TEMP_BED_PIN        0  // Bed / Analog pin numbering
+#define TEMP_0_PIN          0  // Extruder / Analog pin numbering
+#define TEMP_BED_PIN        1  // Bed / Analog pin numbering
 
 #ifdef FILAMENT_SENSOR
   #define FILWIDTH_PIN      2
